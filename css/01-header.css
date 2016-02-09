@@ -4,12 +4,15 @@ body {
   font-family: roboto;
   font-size: 16px;
   font-weight: 400;
+  background-color: #eee;
 }
 
 .header {
   background-color: #f00;
-  height: 39px;
+  white-space: 10px;
   color: white;
+  display: relative;
+  z-index: 1;
 }
 
 .header-nav {
@@ -19,23 +22,31 @@ body {
 }
 
 .header-logo {
+  font-weight: 700;
   float: left;
-  line-height: 39px;
   border-left: 1px white solid;
   border-right: 1px white solid;
-  padding: 0 20px;
+}
+
+.header-logo:hover {
+  background-color: black;
+}
+
+.header-list li:hover {
+  background-color: black;
 }
 
 .header-list {
-  display: inline-block;
+  display: block;
   float: right;
-  line-height: 39px;
+  font-size: 0;
+  border-right: 1px white solid;
 }
 
 .header-list li {
+  position: relative;
+  font-size: 16px;
   float: left;
   border-left: 1px white solid;
-  border-right: 1px white solid;
-  padding: 0 20px;
-  margin: 0;
+  margin: 0 0;
 }

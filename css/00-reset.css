@@ -5,17 +5,21 @@ ul, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
-  box-sizing: inherit;
-  font-size: inherit;
-  font-family: inherit;
-  font-weight: inherit;
-  color: inherit;
   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font: inherit;
+   color: inherit;
+   text-align: inherit;
+   text-decoration: inherit;
+   vertical-align: inherit;
+   box-sizing: inherit;
+   background: transparent;
 }
 
 ul {
   list-style: none;
-  cursor: hand;
 }
 
 img {
@@ -25,7 +29,7 @@ img {
 
 a {
   display: inline-block;
-  /*padding: 0 30px;*/
+  padding: 10px;
 }
 
 input[type="password"],
@@ -39,8 +43,10 @@ button {
 
 button,
 input[type="submit"] {
-
+  cursor: pointer;
 }
+
+
 
 /* Clearfix */
 
