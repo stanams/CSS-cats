@@ -2,12 +2,14 @@
 .content {
   width: 900px;
   margin: 0 auto;
+  position: relative;
+  background-color: white;
 }
 
 .content-sidebar {
   width: 199px;
   min-height: 55px;
-  background-color: white;
+  /*background-color: transparent;*/
   float: left;
   padding: 125px 20px 20px 20px;
 }
@@ -15,17 +17,18 @@
 .content-main {
   width: 620px;
   min-height: 160px;
-  background-color: white;
+  /*background-color: transparent;*/
   float: right;
   padding: 20px;
 }
 
-content:before {
+.content:before {
+  content: '';
   display: block;
   position: absolute;
   width: 1px;
   left: 239px;
   top: 0;
-  top: 0;
-  background-color: blue;
+  bottom: 0;
+  background-color: #eee;
 }
