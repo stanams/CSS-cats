@@ -9,6 +9,7 @@
 .content-sidebar {
   width: 199px;
   min-height: 55px;
+  position: relative;
   /*background-color: transparent;*/
   float: left;
   padding: 125px 20px 20px 20px;
