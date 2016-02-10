@@ -4,5 +4,32 @@
   width: 900px;
   height: 200px;
   background-image: url('../../shared/img/cats.jpg');
-  background-size: 100% auto; 
+  background-size: 100% auto;
+  position: relative;
+}
+
+.add-friend-btn {
+  position: absolute;
+  background-color: white;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px black solid;
+
+}
+
+.add-friend-btn:hover {
+  background-color: #eee;
+}
+
+.content-username {
+  position: absolute;
+  left: 240px;
+  bottom: 25px;
+  font-size: 36px;
+  color: white;
+  text-shadow: #000 0 0 10px;
+  font-weight: 300;
 }
