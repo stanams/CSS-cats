@@ -6,8 +6,23 @@
   width: 200px;
   border-radius: 5px;
   border: 1px black solid;
+  
 }
 
-.content-sidebar a {
+.profile-picture-link {
   padding:0;
+}
+
+.sidebar-name {
+  font-weight: 700;
+  font-size: 24px;
+
+}
+
+.sidebar-bio {
+
+}
+
+.sidebar-items {
+
 }
